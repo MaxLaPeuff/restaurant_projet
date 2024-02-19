@@ -1,0 +1,31 @@
+<!-- menu.html -->
+{% extends 'restau/base.html' %}
+
+{% block content %}
+    <main class="py-5">
+            <div class="container text-center my-5 pe-5 me-5">
+                <div class="row col-md-7 mx-auto mb-4 ">
+                {% for repas in repas %}
+                   <div class="">
+                    <div class="card">
+                      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="{{ repas.image.url }}"  class="img-fluid" />
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">{{ repas.name }} </h5>
+                          <small> {{ repas.prix }}</small>
+                        <p style="text-align:justify;" class="card-text">
+                          {{ repas.description }}
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+                {% endfor %}
+                </div>
+            </div>
+    </main>
+{% endblock %}

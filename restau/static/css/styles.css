@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+.redressed{
+	font-family: 'Redressed',cursive;
+}
+
+.merriweather{
+	font-family: 'Merriweather',selif;
+}
+
+.cc-navbar {
+	background-color: rgba(0, 0, 0, 0.55);
+	font-family: 'Merriweather', serif;
+	box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+	z-index: 99;
+	
+}
+.cc-navbar .nav-link{
+	border-bottom: 1px solid transparent;
+	transition: padding-bottom .0s ease-in-out, border-color .0s ease;
+}
+.cc-navbar .nav-link:hover{
+	padding-bottom: 20px;
+	border-bottom-color:var(--bs-teal) ;
+}
+
+.banner,
+.order-form{
+	background:linear-gradient( rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)),url('../img/restaurant-1837150.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+.banner .banner-desc{
+	font-size: 48px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.cc-menu{
+	background:linear-gradient( rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)),url('../img/healthy-7213383_1920.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 1500px;
+}
+
+
+.btn-order{
+	color: var(--bs-teal);
+	border-color: var(--bs-teal);
+	transition: 0.6s;
+}
+
+.btn-order:hover,
+.btn-order:active{
+	color:#fff;
+	background-color:var(--bs-teal) ;
+}

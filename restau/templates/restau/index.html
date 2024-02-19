@@ -1,0 +1,335 @@
+{% extends 'restau/base.html' %}
+
+{% block content %}
+
+    <section class="banner d-flex justify-content-center align-items-center pt-5">
+      <div class="container my-5 py-5">
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6">
+            <h1 class="text-capitalize py-3 redressed banner-desc">
+              Lorem ipsum dolor sit <br />
+               amet consectetur At cul
+            </h1>
+            <p>
+              <a class="btn btn-order btn-lg me-5 rounded-0 merriweather" href="#pied" >Commander maintenant</a>
+              <button class="btn btn-outline-info btn-lg me-5 rounded-0 merriweather">Reserver</button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section class="available merriweather py-5">
+
+    <div class="container text-center">
+        <a href="{% url 'menu' %}" class="btn btn-outline-info btn-lg me-5 rounded-0 merriweather">Decouvrez nos menus</a>
+    </div>
+
+  <div class="container py-5">
+    <div class="row">
+      <div class="card mb-3 border-0 rounded-0">
+        <div class="row ">
+          <div class="col-md-6">
+            <img src="static/img/food-712665.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title merriweather">Qui sommes nous?</h5>
+              <p class="card-text">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt nesciunt, perspiciatis est dignissimos atque harum eligendi impedit dolorem nobis eos quae culpa asperiores, rem quaerat aliquam. Vitae consectetur unde tempore.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card my-5 border-0 rounded-0">
+        <div class="row ">
+
+          <div class="col text-center">
+            <div class="card-body">
+              <h5 class="card-title merriweather">Nos Varietées</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      <div class="col-md-6 mx-auto align-items-center">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="static/img/lasagna-5994612.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Nos boissons </h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <img src="static/img/barbecue-1239434.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Nos spécialités 100% africaine</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <img src="static/img/hotel-1191718.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Nos pâtisseries</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+          </div>
+
+
+      <div class="card mb-3 py-5 border-0 rounded-0">
+        <div class="row ">
+            <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title merriweather">Un environnement calme et décontractant</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="static/img/coffee-2425303.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<section class="cc-menu py-5 merriweather ">
+  <div class="container">
+    <div class="row">
+      <h3 class="text-center text-light merriweather">Notre Service Traiteur</h3>
+      <div class="card bg-transparent text-center mb-4">
+        <div class="card-body  text-light">
+          <h5 class="card-title">Savourez chaque instant de vos evènements</h5>
+          <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt nesciunt, perspiciatis est dignissimos atque harum eligendi impedit dolorem nobis eos quae culpa asperiores, rem quaerat aliquam. Vitae consectetur unde tempore? ipsum dolor sit, amet consectetur adipisicing elit. Incidunt nesciunt, perspiciatis est dignissimos atque harum eligendi impedit dolorem nobis eos quae culpa asperiores, rem quaerat aliquam. Vitae consectetur unde tempore? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt nesciunt, perspiciatis est dignissimos atque harum eligendi impedit dolorem nobis eos quae culpa asperiores, rem quaerat aliquam. Vitae consectetur unde tempore? .</p>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="static/img/pizza-346985.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nos chefs étoilés</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="static/img/food-712665.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Notre personnel dévoué</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col d-sm-none d-md-block">
+          <div class="card">
+            <img src="static/img/lasagna-5994612.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Nos spécialiste e l'ambiance</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+      </div>
+      <div class="col d-sm-none d-md-block ">
+          <div class="card">
+              <img src="static/img/beans-1834984.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Le meilleur de notre cuisine</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cc-carousel merriweather bg-dark text-light text-center py-5">
+  <div class="container">
+    <div class="row">
+      <h1 class="text-uppercase">Les delices interdits</h1>
+      <div class="col pb-4">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt nesciunt, perspiciatis est dignissimos atque harum eligendi impedit dolorem nobis eos quae culpa asperiores, rem quaerat aliquam. Vitae consectetur unde tempore?
+      </div>
+    </div>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="static/img/breakfast-1835478.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Le gout de la légèreté</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="static/img/hotel-1191718.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Un décors qui facilite la digestion</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="static/img/restaurant-237060.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Un environnement calme et décontractant</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="static/img/beans-1834984.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>L'hygiène est au rendez-vous</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+  </div>
+</section>
+
+<section class="order-form py-5">
+  <div class="container">
+    <h1 class="merriweather text-center text-light mb-4" id="pied">
+      Passer une commande
+    </h1>
+    <form class="form-control form-comtrol" method="post" action="{% url 'commander' %}" >
+            {% csrf_token %}
+          <div class="row">
+            <div class="col-md-6 col-sm">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                <input type="text" class="form-control" name="nom" placeholder="Votre Nom">
+              </div>
+              <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-utesils"></i></label>
+                <select class="form-select" id="inputGroupSelect01" name="menu_commande">
+                  <option selected>Choisir un menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-sort-numeric-up-alt"></i></label>
+                <select class="form-select" id="inputGroupSelect01" name="nombre_de_plats">
+                  <option selected>Nombre de personne</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm">
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" name="adresse_email" placeholder="Votre adresse email">
+                <span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
+              </div>
+              <div class="input-group mb-3">
+                <input type="number" class="form-control" name="numero_telephone" placeholder="Numero de telephone">
+                <span class="input-group-text" id="basic-addon1"><i class="fas fa-phone"></i></span>
+              </div>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" name="adresse" placeholder="Votre adresse">
+                <span class="input-group-text" id="basic-addon1"><i class="fas fa-home"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">Preciser le nombre de personne</span>
+              <input type="text" class="form-control" name="nombre_de_personne_precise" placeholder="Ex:.15"/>
+            </div>
+          </div>
+          <div class="nav-item pe-4 text-center">
+              <button type="submit"  class="btn btn-order rounded-0" >Envoyer</button>
+          </div>
+    </form>
+  </div>
+</section>
+
+<section class="cc-footer py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 mb-4 col-sm">
+						<h6 class="redressed ps-3 fs-5">Le Restaurant</h6>
+						<nav class="nav flex-column">
+							<a class="nav-link py-1 merriweather fs-6 text-secondary active" aria-current="page" href="#">Active</a>
+							<a class="nav-link py-1 merriweather fs-6 text-secondary" href="#">Link</a>
+							<a class="nav-link py-1 merriweather fs-6 text-secondary" href="#">Link</a>
+							<a class="nav-link py-1 merriweather fs-6 text-secondary disabled" href="#" tabindex="-1" aria-disabled="true"
+								>Disabled</a
+							>
+						</nav>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-4 col-sm">
+						<h6 class="redressed ps-3 fs-5">Nos Partenaire</h6>
+						<nav class="nav flex-column">
+							<a class="nav-link py-1 merriweather fs-6 text-secondary active" aria-current="page" href="#">Active</a>
+							<a class="nav-link py-1 merriweather fs-6 text-secondary" href="#">Link</a>
+							<a class="nav-link py-1 merriweather fs-6 text-secondary" href="#">Link</a>
+							<a class="nav-link py-1 merriweather fs-6 text-secondary disabled" href="#" tabindex="-1" aria-disabled="true"
+								>Disabled</a
+							>
+						</nav>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-4 col-sm">
+						<h6 class="redressed ps-3 fs-5">Liens utiles</h6>
+						<nav class="nav flex-column">
+							<a class="nav-link py-1 merriweather fs-6 text-secondary active" aria-current="page" href="#">Active</a>
+							<a class="nav-link py-1 merriweather fs-6 text-secondary" href="#">Link</a>
+							<a class="nav-link py-1 merriweather fs-6 text-secondary" href="#">Link</a>
+							<a class="nav-link py-1 merriweather fs-6 text-secondary disabled" href="#" tabindex="-1" aria-disabled="true"
+								>Disabled</a
+							>
+						</nav>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-4 col-sm">
+						<h6 class="redressed ps-3 fs-5">Nos Offres</h6>
+						<nav class="nav flex-column">
+							<a class="nav-link py-1 merriweather fs-6 text-secondary active" aria-current="page" href="#">Active</a>
+							<a class="nav-link py-1 merriweather fs-6 text-secondary" href="#">Link</a>
+							<a class="nav-link py-1 merriweather fs-6 text-secondary" href="#">Link</a>
+							<a class="nav-link py-1 merriweather fs-6 text-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+						</nav>
+					</div>
+					<div class="col-12 text-center py-4 text-muted">
+						&copy; Le goût du péché
+						<script>
+							document.write(new Date().getFullYear());
+						</script>
+						Copyright
+					</div>
+				</div>
+			</div>
+</section>
+{% endblock %}
